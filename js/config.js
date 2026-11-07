@@ -8,7 +8,7 @@ export const PAGE_SIZE = 24;
 
 // Iklan video VAST (pre-roll), satu iklan per video yang dibuka. Kosongkan "" untuk mematikan.
 // UTAMA (Hilltop): tampil di SETIAP video yang baru dibuka, tanpa jeda.
-export const AD_VAST_PRIMARY = "https://gregariousstretch.com/dxmLF.zddyG/Nkv/ZuG/Ug/FemmS9Yu/Z/U/ljk/PNT/cf2/M/D/YCxsOtDPU_tuNyz/Y-w/NOjVE/4qOOQs";
+export const AD_VAST_PRIMARY = "";
 // CADANGAN (ExoClick): hanya dipakai bila iklan utama kosong/gagal, dan tetap memakai jeda di bawah.
-export const AD_VAST_FALLBACK = "https://s.magsrv.com/v1/vast.php?idz=6083084&ex-av=name";
+export const AD_VAST_FALLBACK = "";
 export const AD_COOLDOWN_MIN = 5;   // jeda minimal (menit) antar iklan CADANGAN untuk satu perangkat
